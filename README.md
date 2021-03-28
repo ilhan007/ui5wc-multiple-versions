@@ -1,7 +1,7 @@
-# Demo of UI5 Web Components in Micro frontends.
+# Demo of UI5 Web Components in Micro Frontends.
 
 
-## Build
+### Build
 
 ```sh
 
