@@ -1,5 +1,5 @@
-# Demo of [UI5 Web Components](https://github.com/SAP/ui5-webcomponents) usage in Micro Frontends,
-built with [single-spa](https://github.com/single-spa/single-spa) framework for front-end microservices.
+# Demo of [UI5 Web Components](https://github.com/SAP/ui5-webcomponents) usage in Micro Frontends
+*built with [single-spa](https://github.com/single-spa/single-spa) framework for front-end microservices
 
 ### Build
 
