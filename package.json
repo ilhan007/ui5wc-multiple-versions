@@ -1,5 +1,6 @@
 {
   "name": "@ilhan/root-config",
+  "license": "MIT",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js",

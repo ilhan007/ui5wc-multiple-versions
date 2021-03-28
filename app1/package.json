@@ -1,5 +1,6 @@
 {
   "name": "@ilhan/app1",
+  "license": "MIT",
   "scripts": {
     "start": "webpack serve --port 9001",
     "start:standalone": "webpack serve --env standalone",
