@@ -24,4 +24,4 @@ yarn start
 http://localhost:9000/
 
 
-<img width="833" alt="Screenshot 2021-03-28 at 18 43 24" src="https://user-images.githubusercontent.com/15702139/112758150-7ce3de80-8ff5-11eb-85ee-4f7bc2aab997.png">
+<img width="882" alt="Screenshot 2021-03-29 at 19 56 37" src="https://user-images.githubusercontent.com/15702139/112877062-f3a0da80-90ce-11eb-935c-2df0d6333b77.png">
