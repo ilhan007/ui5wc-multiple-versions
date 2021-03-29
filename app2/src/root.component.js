@@ -9,8 +9,8 @@ import ui5_wc_logo from "./wc.png";
 import react_logo from "./react.png";
 
 // Scoping
-import { setCustomElementsScopingSuffix } from "@ui5/webcomponents-base/dist/CustomElementsScope.js";
-setCustomElementsScopingSuffix("xyz");
+// import { setCustomElementsScopingSuffix } from "@ui5/webcomponents-base/dist/CustomElementsScope.js";
+// setCustomElementsScopingSuffix("xyz");
 
 export default function Root(props) {
   return (
@@ -33,7 +33,7 @@ export default function Root(props) {
       </div>
 
       {/*  Scoped Table */}
-      <ui5-table-xyz growing="Button">
+      {/* <ui5-table-xyz growing="Button">
         <ui5-table-column-xyz slot="columns">Product</ui5-table-column-xyz>
         <ui5-table-column-xyz slot="columns">Price</ui5-table-column-xyz>
 
@@ -45,18 +45,22 @@ export default function Root(props) {
             <b>1000 USD</b>
           </ui5-table-cell-xyz>
         </ui5-table-row-xyz>
-      </ui5-table-xyz>
+      </ui5-table-xyz> */}
 
       {/* Table */}
-      {/* <ui5-table growing="Button">
-		<ui5-table-column slot="columns">Product</ui5-table-column>
-		<ui5-table-column slot="columns">Price</ui5-table-column>
+      <ui5-table growing="Button">
+        <ui5-table-column slot="columns">Product</ui5-table-column>
+        <ui5-table-column slot="columns">Price</ui5-table-column>
 
-		<ui5-table-row>
-			<ui5-table-cell><b>Laptop HP, 15 inch, Quad-core</b></ui5-table-cell>
-			<ui5-table-cell><b>1000 USD</b></ui5-table-cell>
-		</ui5-table-row>
-	</ui5-table> */}
+        <ui5-table-row>
+          <ui5-table-cell>
+            <b>Laptop HP, 15 inch, Quad-core</b>
+          </ui5-table-cell>
+          <ui5-table-cell>
+            <b>1000 USD</b>
+          </ui5-table-cell>
+        </ui5-table-row>
+      </ui5-table>
     </section>
   );
 }
