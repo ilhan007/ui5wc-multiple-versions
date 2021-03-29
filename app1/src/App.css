@@ -1,7 +1,18 @@
 .section2 {
-	border: dashed 3px orange;
+  border: dashed 3px orange;
 }
 
-.title {
-	color: orange;
+.title,
+.version {
+  color: orange;
+}
+
+.img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: flex-end;
 }

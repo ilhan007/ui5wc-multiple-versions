@@ -1425,7 +1425,7 @@
     "@sap-theming/theming-base-content" "11.1.19"
     "@ui5/webcomponents-base" "0.30.0"
 
-"@ui5/webcomponents@^1.0.0-rc.12":
+"@ui5/webcomponents@1.0.0-rc.12":
   version "1.0.0-rc.12"
   resolved "https://registry.npmjs.org/@ui5/webcomponents/-/webcomponents-1.0.0-rc.12.tgz#78b0f1b2e8c250434173c086c1c44e1ab3677bfe"
   integrity sha512-z0rTvPpX3el2/k/NslvqUt/rGVWp+sMmlf15zRXrrGuZFXL5Lj4zE98bZT7VDbZDOh2yadDVX34AHhL92cB1XA==
@@ -3449,6 +3449,14 @@ file-entry-cache@^6.0.1:
   integrity sha512-7Gps/XWymbLk2QLYK4NzpMOrYjMhdIxXuIvy2QBsLE6ljuodKvdkWs/cpyJJ3CVIVpH0Oi1Hvg1ovbMzLdFBBg==
   dependencies:
     flat-cache "^3.0.4"
+
+file-loader@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/file-loader/-/file-loader-6.2.0.tgz#baef7cf8e1840df325e4390b4484879480eebe4d"
+  integrity sha512-qo3glqyTa61Ytg4u73GultjHGjdRyig3tG6lPtyX/jOEJvHif9uB0/OCI2Kif6ctF3caQTW2G5gym21oAsI4pw==
+  dependencies:
+    loader-utils "^2.0.0"
+    schema-utils "^3.0.0"
 
 fill-range@^4.0.0:
   version "4.0.0"
